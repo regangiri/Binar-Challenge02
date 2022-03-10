@@ -249,8 +249,8 @@ const siapaPenjualnya = () => {
   return penjualnyaNih;
 };
 const objNovel = {
-  totalKeuntungan: untung,
-  totalModal: totalHargaBeli,
+  totalKeuntungan: `rp ${untung}`,
+  totalModal: `rp ${totalHargaBeli}`,
   persentaseKeuntungan: persenUntung,
   produkBukuTerlaris: siapaPenjualnya().namaProduk,
   penulisTerlarisL: siapaPenjualnya().penulis,
